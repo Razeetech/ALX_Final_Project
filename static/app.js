@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
         controlButtons.forEach(button => button.classList.remove('pressed'));
     }
 
-    // Sample playlist data
+    // Sample music in playlist
     const playlist = [
         '/static/music/song1.mp3',
         '/static/music/song2.mp3',
