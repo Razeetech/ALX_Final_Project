@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Music Player</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <script src="../static/app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left-frame">
+            <img src="../static/images/logo.jpg" alt="App Logo" class="app-logo">
+        </div>
+        <div class="right-frame">
+            <ul class="playlist" id="playlist">
+                <!-- Populate playlist dynamically using JavaScript -->
+            </ul>
+            <div class="volume-container">
+                <label for="volumeControl">Volume:</label>
+                <input type="range" id="volumeControl" min="0" max="1" step="0.1" value="1" />
+            </div>
+        </div>
+        <div class="bottom-frame">
+            <button class="control-button" id="playButton">
+                <img src="../static/images/play-button.png" alt="Play">
+            </button>
+            <button class="control-button" id="prevButton">
+                <img src="../static/images/rewind-button.png" alt="Previous">
+            </button>
+            <button class="control-button" id="nextButton">
+                <img src="../static/images/forward-button.png" alt="Next">
+            </button>
+            <button class="control-button" id="pauseButton">
+                <img src="../static/images/pause-button.png" alt="Pause">
+            </button>
+            <button class="control-button" id="playbackButton">
+                <img src="../static/images/playback-button.png" alt="Playback">
+            </button>
+            <button class="control-button" id="stopButton">
+                <img src="../static/images/stop-player-button.png" alt="Stop">
+            </button>
+        </div>
+        <div class="now-playing">
+            <p id="nowPlaying">Choose a Song</p>
+        </div>
+    </div>
+
+   <!-- Contributor Section -->
+<div class="footer-section">
+    <h3>Contributors</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>GitHub</th>
+                <th>Twitter</th>
+                <th>LinkedIn</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Akinlalure Daniel</strong></td>
+                <td><a href="mailto:akinlaluredaniel@gmail.com">akinlaluredaniel@gmail.com</a></td>
+                <td><a href="https://github.com/Denzel-007" target="_blank">Denzel-007</a></td>
+                <td><a href="https://twitter.com/Arkdenzel" target="_blank">@ArkDenzel</a></td>
+                <td><a href="https://www.linkedin.com/in/akinlalure-daniel/" target="_blank">LinkedIn 1</a></td>
+            </tr>
+            <tr>
+                <td><strong>Raji Azeez</strong></td>
+                <td><a href="mailto:rajiazeezsch@gmail.com">rajiazeezsch@gmail.com</a></td>
+                <td><a href="https://github.com/razeetech" target="_blank">RazeeTech</a></td>
+                <td><a href="https://twitter.com/mr_razee" target="_blank">@Mr_Razee</a></td>
+                <td><a href="https://www.linkedin.com/in/razeetech/" target="_blank">LinkedIn</a></td>
+            </tr>
+            <tr>
+                <td><strong>Adesola Deborah</strong></td>
+                <td><a href="mailto:debbyrinsola@gmail.com">debbyrinsola@gmail.com</a></td>
+                <td><a href="https://github.com/Debbie-rinsola24" target="_blank">contributor3</a></td>
+                <td><a href="" target="_blank">Twitter</a></td>
+                <td><a href="https://www.linkedin.com/in/deborahjos" target="_blank">LinkedIn 3</a></td>
+            </tr>
+            <tr>
+                <td><strong>Akinlowo Olumide</strong></td>
+                <td><a href="mailto:adeolaolumide9@gmail.com">adeolaolumide9@gmail.com</a></td>
+                <td><a href="https://github.com/olubunday" target="_blank">olubunday</a></td>
+                <td><a href="https://twitter.com/olubunday" target="_blank">@olubunday</a></td>
+                <td><a href="https://www.linkedin.com/in/olumideakinlowo" target="_blank">LinkedIn 4</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
