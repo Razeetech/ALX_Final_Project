@@ -30,3 +30,7 @@ Upon accessing the application link: https://razeetech.pythonanywhere.com/ , you
     $ git clone https://github.com/Razeetech/ALX_Final_Project.git
     $ cd ALX_Final_Project
     $ python app.py //To run the application on localhost
+
+
+## Dependecies
+$ pip install -r requirements.txt
