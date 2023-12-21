@@ -33,4 +33,5 @@ Upon accessing the application link: https://razeetech.pythonanywhere.com/ , you
 
 
 ## Dependecies
-$ install -r requirements.txt
+```bash
+    $ install -r requirements.txt
